@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.row {
+    display: flex;
+    background-color: black;
+    padding: 40px 40px;
+}
+
+.col, .col-2, .col-3 {
+    margin: 10px;
+    padding: 10px;
+    background-color: pink;
+    border: 3px solid hotpink;
+    box-shadow: 5px 7px darkmagenta;
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+.col-2 {
+    flex: 2;
+    background-color: orange;
+    border-color: darkred;
+    box-shadow: -5px -7px palegoldenrod;
+}
+
+.col-3 {
+    flex: 3;
+    background-color: lime;
+    border-color: darkgreen;
+    box-shadow: -5px -7px lightgreen;
+}
